@@ -1,7 +1,7 @@
 name: Pruebas unitarias
 on:
   push:
-  branches: [develop]
+  branches: [ develop ]
 jobs:
   job1:
   name: Pruebas
