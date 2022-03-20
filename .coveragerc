@@ -1,0 +1,7 @@
+# .coveragerc to control coverage.py
+[run]
+source = src
+omit = 
+  src/modelo
+  __init__.py
+  _virtualenv.py
