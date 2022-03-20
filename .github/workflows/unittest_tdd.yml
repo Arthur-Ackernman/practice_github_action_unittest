@@ -4,7 +4,7 @@ on:
     branches: [ develop ]
 jobs:
   job1:
-    name: Pruebas
+    name: Pruebas v2
     runs-on: ubuntu-latest
     steps:
     - name: Checkout de repositorio
@@ -24,4 +24,4 @@ jobs:
       id: cubrimiento
       run: |
           coverage run -m unittest tests/test_persona.py
-          coverage report -        
+          coverage report -m       
