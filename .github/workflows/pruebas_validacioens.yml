@@ -28,7 +28,7 @@ jobs:
         MENSAJE_ERROR: Una o varias pruebas fallaron
       run: echo "::set-output name=respuesta::${MENSAJE_EXITOSO}"
     - name: Validar resultados sin errores
-      if: {{ success() }}
+      if: ${{ success() }}
       env:
         MENSAJE_EXITO: Todas las pruebas fueron exitosas
       run: echo "::set-output name=respuesta::${MENSAJE_EXITO"}"
