@@ -4,8 +4,8 @@ on:
     branches: [ develop ]
 jobs:
   job1:
-    name: Pruebas
-    run-on: ubuntu-latest
+    name: Pruebas v3
+    runs-on: ubuntu-latest
     outputs:
       salida: ${{ steps.imprimir.outputs.respuesta }}
     steps:
