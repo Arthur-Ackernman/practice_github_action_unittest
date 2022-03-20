@@ -31,7 +31,7 @@ jobs:
       if: ${{ success() }}
       env:
         MENSAJE_EXITO: Todas las pruebas fueron exitosas
-      run: echo "::set-output name=respuesta::${MENSAJE_EXITO"}"
+      run: echo "::set-output name=respuesta::${MENSAJE_EXITO}"
     - name: Cálcula de cubrimiento
       id: cubrimiento
       run: |
