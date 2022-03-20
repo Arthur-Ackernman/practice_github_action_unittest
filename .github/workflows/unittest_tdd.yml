@@ -1,4 +1,4 @@
-name: Pruebas unitarias
+name: Pruebas unitarias cobertura
 on:
   push:
     branches: [ master ]
