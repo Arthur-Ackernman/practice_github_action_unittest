@@ -1,7 +1,7 @@
 name: Pruebas unitarias cobertura
 on:
   push:
-    branches: [ master ]
+    branches: [ develop ]
 jobs:
   job1:
     name: Pruebas
